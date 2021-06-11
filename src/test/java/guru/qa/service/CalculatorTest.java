@@ -1,7 +1,7 @@
 package guru.qa.service;
 
-import guru.qa.service.mock.MockMultReader;
 import guru.qa.service.impl.StringWriter;
+import guru.qa.service.mock.MockMultReader;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 

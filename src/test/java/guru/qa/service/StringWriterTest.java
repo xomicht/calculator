@@ -8,17 +8,17 @@ public class StringWriterTest {
     StringWriter sw = new StringWriter();
 
     @Test
-    void inputArgsTest(){
+    void inputArgsTest() {
         Assertions.assertEquals("Введите аргументы:", sw.handleString(ConsoleStrings.INPUT_ARGS.getStr()));
     }
 
     @Test
-    void inputOperationTest(){
+    void inputOperationTest() {
         Assertions.assertEquals("Введите опреацию:", sw.handleString(ConsoleStrings.INPUT_OPERATION.getStr()));
     }
 
     @Test
-    void printResultTest(){
+    void printResultTest() {
         Assertions.assertEquals("Результат:", sw.handleString(ConsoleStrings.RESULT.getStr()));
     }
 }
